@@ -1,0 +1,86 @@
+
+
+Name: Aditya Basu
+Roll No: 19IE10002
+Department: Electrical Engineering
+
+version of python3 used: Python 3.6.9
+
+External Libraries used:
+Numpy
+Pandas
+Sklearn
+Fasttext
+Spacy
+
+Submission contains:
+
+folders:
+
+1. data - contains "train.tsv" and "test.tsv"
+
+
+2. task1 - 
+
+	contains main.py and temp.txt
+	temp.txt is generated during run-time in the Fasttext portion
+	
+3. predictions - 
+	
+	contains:
+	RF.csv - Random Forrest Classifier output 
+	SVM.csv - SVM output
+	FT.csv	- Fast Text output
+	
+4. task2-
+	compare.py-
+	
+	Almost all of the code of Task2 has been *exactly copied* from: https://colab.research.google.com/drive/1pTuQhug6Dhl9XalKB0zUGf4FIdYFlpcX#scrollTo=6ulTWaOr8QNY
+	This is based on the famous BERT model which uses transformers for the purpose of classification problems.
+	
+	Additional libraries used -
+	PyTorch, Transformers
+	
+	
+	
+	
+
+Execution:
+	
+	Please go to the task1 folder and execute the following command
+	$ python3 main.py
+	
+	file "temp.txt" and the "predictions" subfolder will be generated during run-time.
+	As asked in the assignment, these have been generated already.
+	Please delete them before execution as they'll be generated again.
+	
+	
+	
+Run-time:
+
+	Task1 in total takes 7-8 mins-
+	
+	1. RF part takes 2 minutes
+	
+	2. SVM takes about 5-6 mins
+	
+	3. FT part takes about 10-15 seconds
+	
+	
+	
+Model used in Task2-
+	
+	https://colab.research.google.com/drive/1pTuQhug6Dhl9XalKB0zUGf4FIdYFlpcX#scrollTo=6ulTWaOr8QNY
+	(RoBERTa based on the famous BERT model)
+
+	Additional links - 
+	https://huggingface.co/  -> the transformers library which has been used.
+	
+	other models used - RobertaTokenizer, RobertaForSequenceClassfication 
+	
+	
+	
+	
+	
+	 
+	

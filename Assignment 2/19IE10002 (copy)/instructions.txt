@@ -1,0 +1,42 @@
+
+
+Name: Aditya Basu
+Roll No: 19IE10002
+Department: Electrical Engineering
+
+version of python3 used: Python 3.6.9
+
+Submission contains:
+
+1. gen_centrality.py
+2. analyze_centrality.py
+3. centralities(subfoler)
+4. facebook_combined.txt (data set)
+
+	(i)	 gen_centrality.py -> code for the computation of closeness centrality and page-rank
+		Note: "centralities" has been generated ahead of time as mentioned in the assignment.
+		It will be generated again when gen_centrality.py is run
+	(ii)	 analyze_centrality.py	-> code for comparing top 100 nodes in inbuilt versions and student made versions of centrality measure
+	(iii)	 centralities subfolder contains "closeness.txt" and "pagerank.txt"
+	
+		
+
+Execution:
+	
+	$ python3 gen_centrality.py
+	
+	Please delete "centralities" subfolder first as this code will generate it again.
+	and if previously present, may give issues.
+	runtime: about 1 minute
+	
+	then:
+	
+	$ python3 analyze_centrality.py 
+	
+	required output displayed in stdout
+	Runtime: about 1 min
+	
+	
+	
+	 
+	

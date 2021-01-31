@@ -1,0 +1,49 @@
+
+
+Name: Aditya Basu
+Roll No: 19IE10002
+Department: Electrical Engineering
+
+version of python3 used: Python 3.6.9
+
+Submission contains:
+
+1. data_generation.py
+
+2. subgraphs(folder):
+
+	(i)	 gen_stucture.py -> code for all the computation asked in the assignment.
+		Note: "plots" will be generated as a subfolder in this folder during run-time
+	(ii)	 facebook.elist	-> this is the required subgraph generated for facebook
+	(iii)	 amazon.elist	-> this is the required subgraph generated for amazon
+	
+	
+Generating required data set:
+	data_generation.py is the code that has been used to create a subfolder "subgraphs" 
+	where facebook.elist and amazon.elist will be stored
+	
+
+Execution:
+	
+	$ python3 gen_structure.py facebook.elist
+	
+	required output displayed in stdout
+	Runtime: about one minute
+	This will generate plot for data corresponding to facebook subgraph inside "plots" subfolder.
+	"plots" will be created inside "subgraphs"
+	
+	Now for amazon.elist, *delete* the plots subfolder first.
+	
+	then:
+	
+	$ python3 gen_structure.py amazon.elist
+	
+	required output displayed in stdout
+	Runtime: about one minute
+	This will generate plot for data corresponding to amazon subgraph inside "plots" subfolder.
+	"plots" will be created inside "subgraphs"
+	
+	
+	
+	 
+	
