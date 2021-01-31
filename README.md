@@ -1,4 +1,7 @@
 # SocialComputing-CS60017-IITKGP-2020-Autumn
-Assignments done in the course Social Computing - 2020 - Autumn - CS60017 - IIT Kharagpur
 
-Each Assignment sub folder has individual files
+Each Assignment sub folder has:
+
+1. Assignment desciption
+2. Dataset
+3. Code(s)
